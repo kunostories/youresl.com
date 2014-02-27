@@ -1,6 +1,6 @@
 <div class="row">
 
-	<div class="col-sm-6 col-sm-offset-3 well">
+	<div class="col-sm-5 well">
 
 		<h1>Edit Profile of <?=$user->alias?></h1>
 
@@ -45,6 +45,9 @@
 				<input type="text" name="last_name" class="form-control" value="<?=$user->last_name?>">
 			</div>
 
+	</div>
+	<div class="col-sm-5 well pull-right">
+
 			<div class="form-group">
 				<label>Location:</label>
 				<input type="text" name="location" class="form-control" value="<?=$user->location?>">
@@ -81,7 +84,7 @@
 	
 	<div class="col-sm-3 pull-right">
 		<?php if(!empty($user->logo)): ?>
-		<img src="/uploads/avatars/<?=$user->logo; ?>" class="img-circle" alt="user logo">
+		<img src="/uploads/avatars/<?=$user->logo; ?>" alt="user logo">
 		<?php endif; ?>
 	</div>
 </div> <!--/.row-->

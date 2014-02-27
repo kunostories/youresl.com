@@ -45,7 +45,7 @@
     	<h1><? echo $user->alias; ?></h1>
         <div class="well">
         	<?php if(!empty($user->logo)): ?>
-			<img src="/uploads/avatars/<?=$user->logo; ?>" class="img-circle" alt="user logo">
+			<img src="/uploads/avatars/<?=$user->logo; ?>" alt="user logo">
 			<?php endif; ?>
           <p>
             <strong>Name: </strong> <? echo $user->first_name . " " . $user->last_name; ?>
