@@ -13,10 +13,7 @@
 	<!-- left column-->
 	<div class="col-sm-7 well">
 		<!-- Splash page info about site -->
-		<video controls>
-		  <source src="/img/pronunciation-promo.m4v" type="video/mp4">
-		Your browser does not support the video tag.
-		</video>
+		<iframe width="540" height="304" src="//www.youtube.com/embed/Vn3Cia003sQ" frameborder="0" allowfullscreen></iframe>
 		<h2>Free English Tips &amp; Tricks</h2>
 		<p class="lead">
 			Sign up to receive free ESL lessons.
