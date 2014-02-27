@@ -1,0 +1,21 @@
+2014-01-31 19:50:19 - INFO --> -------------------------- 
+2014-01-31 19:50:19 - INFO --> Controller/Method: courses/enroll 
+2014-01-31 19:50:19 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY english@sroeco.com 
+2014-01-31 19:50:19 - INFO --> From: English Courses (english@sroeco.com) 
+2014-01-31 19:50:19 - INFO --> To: English Courses (english@sroeco.com),  
+2014-01-31 19:50:19 - INFO --> CC:  
+2014-01-31 19:50:19 - INFO --> BCC:  
+2014-01-31 19:50:19 - INFO --> Subject: English Courses SQL Error 
+2014-01-31 19:50:19 - INFO --> Body: <h2>SQL Error</h2> INSERT INTO users_courses SET user_id = '4', progress = '1' Cannot add or update a child row: a foreign key constraint fails (`kunostor_p4_kunostories_biz`.`users_courses`, CONSTRAINT `users_courses_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `courses` (`course_id`) ON DELETE CAS 
+2014-01-31 19:50:22 - INFO --> -------------------------- 
+2014-01-31 19:50:22 - INFO --> Controller/Method: courses/view 
+2014-01-31 19:50:22 - INFO --> OUTGOING EMAILS ARE DISABLED. THIS EMAIL WAS NOT SENT TO THE RECIPIENTS, ONLY english@sroeco.com 
+2014-01-31 19:50:22 - INFO --> From: English Courses (english@sroeco.com) 
+2014-01-31 19:50:22 - INFO --> To: English Courses (english@sroeco.com),  
+2014-01-31 19:50:22 - INFO --> CC:  
+2014-01-31 19:50:22 - INFO --> BCC:  
+2014-01-31 19:50:22 - INFO --> Subject: English Courses SQL Error 
+2014-01-31 19:50:22 - INFO --> Body: <h2>SQL Error</h2> SELECT * FROM contents 
+	    		WHERE course_id =  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2<h2>Query History</h2>0 = SELECT *
+					FROM users
+					WHERE token = '5af7c958b2d483 
